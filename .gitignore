@@ -1,0 +1,26 @@
+# Ignore data files
+data/*
+
+# Ignore model files
+models/*
+
+# Ignore environment files
+.env
+venv/
+pip-lock.txt
+
+# Ignore log files
+logs/*
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+*.log
+*.cache
+*.out
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore the pre-existing file from the course
+kaggle.json
